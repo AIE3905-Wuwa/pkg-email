@@ -12,3 +12,6 @@ uninstall:
   credentials: ["mail-cli 凭据与会话缓存（本机，不入库）"]
   bridges: []
   processes: []
+disclosure: "Reads personal mailboxes via mail-cli (Graph/IMAP); processes email contents, headers and attachments (privacy: high); credentials only on this machine; mailbox is read-only (PEEK, never marking/moving/deleting); mailbox data never enters any git repository."
+menu:
+  email: mailbox domain — digest inbox, people archives, threads (read-only, PEEK)
